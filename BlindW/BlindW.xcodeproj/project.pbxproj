@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2ADD4B228F91F9400835224 /* BlindWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4B128F91F9400835224 /* BlindWApp.swift */; };
+		A2ADD4B428F91F9400835224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4B328F91F9400835224 /* ContentView.swift */; };
+		A2ADD4B628F91F9700835224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD4B528F91F9700835224 /* Assets.xcassets */; };
+		A2ADD4B928F91F9700835224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD4B828F91F9700835224 /* Preview Assets.xcassets */; };
+		A2ADD4C328F91F9800835224 /* BlindWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4C228F91F9800835224 /* BlindWTests.swift */; };
+		A2ADD4CD28F91F9800835224 /* BlindWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4CC28F91F9800835224 /* BlindWUITests.swift */; };
+		A2ADD4CF28F91F9800835224 /* BlindWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4CE28F91F9800835224 /* BlindWUITestsLaunchTests.swift */; };
+		A2ADD4D528F91F9800835224 /* BlindW Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A2ADD4D428F91F9800835224 /* BlindW Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2ADD4DA28F91F9800835224 /* BlindWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4D928F91F9800835224 /* BlindWApp.swift */; };
+		A2ADD4DC28F91F9800835224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4DB28F91F9800835224 /* ContentView.swift */; };
+		A2ADD4DE28F91F9A00835224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD4DD28F91F9A00835224 /* Assets.xcassets */; };
+		A2ADD4E128F91F9A00835224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD4E028F91F9A00835224 /* Preview Assets.xcassets */; };
+		A2ADD4EB28F91F9B00835224 /* BlindW_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4EA28F91F9B00835224 /* BlindW_Watch_AppTests.swift */; };
+		A2ADD4F528F91F9B00835224 /* BlindW_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4F428F91F9B00835224 /* BlindW_Watch_AppUITests.swift */; };
+		A2ADD4F728F91F9B00835224 /* BlindW_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD4F628F91F9B00835224 /* BlindW_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2ADD4BF28F91F9800835224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD4A628F91F9400835224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD4AD28F91F9400835224;
+			remoteInfo = BlindW;
+		};
+		A2ADD4C928F91F9800835224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD4A628F91F9400835224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD4AD28F91F9400835224;
+			remoteInfo = BlindW;
+		};
+		A2ADD4D628F91F9800835224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD4A628F91F9400835224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD4D328F91F9800835224;
+			remoteInfo = "BlindW Watch App";
+		};
+		A2ADD4E728F91F9B00835224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD4A628F91F9400835224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD4D328F91F9800835224;
+			remoteInfo = "BlindW Watch App";
+		};
+		A2ADD4F128F91F9B00835224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD4A628F91F9400835224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD4D328F91F9800835224;
+			remoteInfo = "BlindW Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2ADD4FD28F91F9B00835224 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A2ADD4D528F91F9800835224 /* BlindW Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2ADD4AE28F91F9400835224 /* BlindW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4B128F91F9400835224 /* BlindWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindWApp.swift; sourceTree = "<group>"; };
+		A2ADD4B328F91F9400835224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2ADD4B528F91F9700835224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2ADD4B828F91F9700835224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2ADD4BE28F91F9800835224 /* BlindWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4C228F91F9800835224 /* BlindWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindWTests.swift; sourceTree = "<group>"; };
+		A2ADD4C828F91F9800835224 /* BlindWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4CC28F91F9800835224 /* BlindWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindWUITests.swift; sourceTree = "<group>"; };
+		A2ADD4CE28F91F9800835224 /* BlindWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2ADD4D428F91F9800835224 /* BlindW Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlindW Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4D928F91F9800835224 /* BlindWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindWApp.swift; sourceTree = "<group>"; };
+		A2ADD4DB28F91F9800835224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2ADD4DD28F91F9A00835224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2ADD4E028F91F9A00835224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2ADD4E628F91F9B00835224 /* BlindW Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlindW Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4EA28F91F9B00835224 /* BlindW_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindW_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A2ADD4F028F91F9B00835224 /* BlindW Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlindW Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD4F428F91F9B00835224 /* BlindW_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindW_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A2ADD4F628F91F9B00835224 /* BlindW_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindW_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2ADD4AB28F91F9400835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4BB28F91F9800835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4C528F91F9800835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4D128F91F9800835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4E328F91F9B00835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4ED28F91F9B00835224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2ADD4A528F91F9400835224 = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4B028F91F9400835224 /* BlindW */,
+				A2ADD4C128F91F9800835224 /* BlindWTests */,
+				A2ADD4CB28F91F9800835224 /* BlindWUITests */,
+				A2ADD4D828F91F9800835224 /* BlindW Watch App */,
+				A2ADD4E928F91F9B00835224 /* BlindW Watch AppTests */,
+				A2ADD4F328F91F9B00835224 /* BlindW Watch AppUITests */,
+				A2ADD4AF28F91F9400835224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2ADD4AF28F91F9400835224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4AE28F91F9400835224 /* BlindW.app */,
+				A2ADD4BE28F91F9800835224 /* BlindWTests.xctest */,
+				A2ADD4C828F91F9800835224 /* BlindWUITests.xctest */,
+				A2ADD4D428F91F9800835224 /* BlindW Watch App.app */,
+				A2ADD4E628F91F9B00835224 /* BlindW Watch AppTests.xctest */,
+				A2ADD4F028F91F9B00835224 /* BlindW Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2ADD4B028F91F9400835224 /* BlindW */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4B128F91F9400835224 /* BlindWApp.swift */,
+				A2ADD4B328F91F9400835224 /* ContentView.swift */,
+				A2ADD4B528F91F9700835224 /* Assets.xcassets */,
+				A2ADD4B728F91F9700835224 /* Preview Content */,
+			);
+			path = BlindW;
+			sourceTree = "<group>";
+		};
+		A2ADD4B728F91F9700835224 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4B828F91F9700835224 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2ADD4C128F91F9800835224 /* BlindWTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4C228F91F9800835224 /* BlindWTests.swift */,
+			);
+			path = BlindWTests;
+			sourceTree = "<group>";
+		};
+		A2ADD4CB28F91F9800835224 /* BlindWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4CC28F91F9800835224 /* BlindWUITests.swift */,
+				A2ADD4CE28F91F9800835224 /* BlindWUITestsLaunchTests.swift */,
+			);
+			path = BlindWUITests;
+			sourceTree = "<group>";
+		};
+		A2ADD4D828F91F9800835224 /* BlindW Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4D928F91F9800835224 /* BlindWApp.swift */,
+				A2ADD4DB28F91F9800835224 /* ContentView.swift */,
+				A2ADD4DD28F91F9A00835224 /* Assets.xcassets */,
+				A2ADD4DF28F91F9A00835224 /* Preview Content */,
+			);
+			path = "BlindW Watch App";
+			sourceTree = "<group>";
+		};
+		A2ADD4DF28F91F9A00835224 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4E028F91F9A00835224 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2ADD4E928F91F9B00835224 /* BlindW Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4EA28F91F9B00835224 /* BlindW_Watch_AppTests.swift */,
+			);
+			path = "BlindW Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A2ADD4F328F91F9B00835224 /* BlindW Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD4F428F91F9B00835224 /* BlindW_Watch_AppUITests.swift */,
+				A2ADD4F628F91F9B00835224 /* BlindW_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BlindW Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2ADD4AD28F91F9400835224 /* BlindW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD4FE28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW" */;
+			buildPhases = (
+				A2ADD4AA28F91F9400835224 /* Sources */,
+				A2ADD4AB28F91F9400835224 /* Frameworks */,
+				A2ADD4AC28F91F9400835224 /* Resources */,
+				A2ADD4FD28F91F9B00835224 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD4D728F91F9800835224 /* PBXTargetDependency */,
+			);
+			name = BlindW;
+			productName = BlindW;
+			productReference = A2ADD4AE28F91F9400835224 /* BlindW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2ADD4BD28F91F9800835224 /* BlindWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD50128F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindWTests" */;
+			buildPhases = (
+				A2ADD4BA28F91F9800835224 /* Sources */,
+				A2ADD4BB28F91F9800835224 /* Frameworks */,
+				A2ADD4BC28F91F9800835224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD4C028F91F9800835224 /* PBXTargetDependency */,
+			);
+			name = BlindWTests;
+			productName = BlindWTests;
+			productReference = A2ADD4BE28F91F9800835224 /* BlindWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2ADD4C728F91F9800835224 /* BlindWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD50428F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindWUITests" */;
+			buildPhases = (
+				A2ADD4C428F91F9800835224 /* Sources */,
+				A2ADD4C528F91F9800835224 /* Frameworks */,
+				A2ADD4C628F91F9800835224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD4CA28F91F9800835224 /* PBXTargetDependency */,
+			);
+			name = BlindWUITests;
+			productName = BlindWUITests;
+			productReference = A2ADD4C828F91F9800835224 /* BlindWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A2ADD4D328F91F9800835224 /* BlindW Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD4FA28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch App" */;
+			buildPhases = (
+				A2ADD4D028F91F9800835224 /* Sources */,
+				A2ADD4D128F91F9800835224 /* Frameworks */,
+				A2ADD4D228F91F9800835224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlindW Watch App";
+			productName = "BlindW Watch App";
+			productReference = A2ADD4D428F91F9800835224 /* BlindW Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2ADD4E528F91F9B00835224 /* BlindW Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD50728F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch AppTests" */;
+			buildPhases = (
+				A2ADD4E228F91F9B00835224 /* Sources */,
+				A2ADD4E328F91F9B00835224 /* Frameworks */,
+				A2ADD4E428F91F9B00835224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD4E828F91F9B00835224 /* PBXTargetDependency */,
+			);
+			name = "BlindW Watch AppTests";
+			productName = "BlindW Watch AppTests";
+			productReference = A2ADD4E628F91F9B00835224 /* BlindW Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2ADD4EF28F91F9B00835224 /* BlindW Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD50A28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch AppUITests" */;
+			buildPhases = (
+				A2ADD4EC28F91F9B00835224 /* Sources */,
+				A2ADD4ED28F91F9B00835224 /* Frameworks */,
+				A2ADD4EE28F91F9B00835224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD4F228F91F9B00835224 /* PBXTargetDependency */,
+			);
+			name = "BlindW Watch AppUITests";
+			productName = "BlindW Watch AppUITests";
+			productReference = A2ADD4F028F91F9B00835224 /* BlindW Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2ADD4A628F91F9400835224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A2ADD4AD28F91F9400835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A2ADD4BD28F91F9800835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2ADD4AD28F91F9400835224;
+					};
+					A2ADD4C728F91F9800835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2ADD4AD28F91F9400835224;
+					};
+					A2ADD4D328F91F9800835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A2ADD4E528F91F9B00835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2ADD4D328F91F9800835224;
+					};
+					A2ADD4EF28F91F9B00835224 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2ADD4D328F91F9800835224;
+					};
+				};
+			};
+			buildConfigurationList = A2ADD4A928F91F9400835224 /* Build configuration list for PBXProject "BlindW" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2ADD4A528F91F9400835224;
+			productRefGroup = A2ADD4AF28F91F9400835224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2ADD4AD28F91F9400835224 /* BlindW */,
+				A2ADD4BD28F91F9800835224 /* BlindWTests */,
+				A2ADD4C728F91F9800835224 /* BlindWUITests */,
+				A2ADD4D328F91F9800835224 /* BlindW Watch App */,
+				A2ADD4E528F91F9B00835224 /* BlindW Watch AppTests */,
+				A2ADD4EF28F91F9B00835224 /* BlindW Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2ADD4AC28F91F9400835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4B928F91F9700835224 /* Preview Assets.xcassets in Resources */,
+				A2ADD4B628F91F9700835224 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4BC28F91F9800835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4C628F91F9800835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4D228F91F9800835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4E128F91F9A00835224 /* Preview Assets.xcassets in Resources */,
+				A2ADD4DE28F91F9A00835224 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4E428F91F9B00835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4EE28F91F9B00835224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2ADD4AA28F91F9400835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4B428F91F9400835224 /* ContentView.swift in Sources */,
+				A2ADD4B228F91F9400835224 /* BlindWApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4BA28F91F9800835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4C328F91F9800835224 /* BlindWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4C428F91F9800835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4CF28F91F9800835224 /* BlindWUITestsLaunchTests.swift in Sources */,
+				A2ADD4CD28F91F9800835224 /* BlindWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4D028F91F9800835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4DC28F91F9800835224 /* ContentView.swift in Sources */,
+				A2ADD4DA28F91F9800835224 /* BlindWApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4E228F91F9B00835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4EB28F91F9B00835224 /* BlindW_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD4EC28F91F9B00835224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD4F728F91F9B00835224 /* BlindW_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A2ADD4F528F91F9B00835224 /* BlindW_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2ADD4C028F91F9800835224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD4AD28F91F9400835224 /* BlindW */;
+			targetProxy = A2ADD4BF28F91F9800835224 /* PBXContainerItemProxy */;
+		};
+		A2ADD4CA28F91F9800835224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD4AD28F91F9400835224 /* BlindW */;
+			targetProxy = A2ADD4C928F91F9800835224 /* PBXContainerItemProxy */;
+		};
+		A2ADD4D728F91F9800835224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD4D328F91F9800835224 /* BlindW Watch App */;
+			targetProxy = A2ADD4D628F91F9800835224 /* PBXContainerItemProxy */;
+		};
+		A2ADD4E828F91F9B00835224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD4D328F91F9800835224 /* BlindW Watch App */;
+			targetProxy = A2ADD4E728F91F9B00835224 /* PBXContainerItemProxy */;
+		};
+		A2ADD4F228F91F9B00835224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD4D328F91F9800835224 /* BlindW Watch App */;
+			targetProxy = A2ADD4F128F91F9B00835224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2ADD4F828F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2ADD4F928F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2ADD4FB28F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlindW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = a.BlindW;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2ADD4FC28F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlindW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = a.BlindW;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindW.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A2ADD4FF28F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlindW/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindW;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2ADD50028F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlindW/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindW;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2ADD50228F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlindW";
+			};
+			name = Debug;
+		};
+		A2ADD50328F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlindW";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2ADD50528F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlindW;
+			};
+			name = Debug;
+		};
+		A2ADD50628F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.BlindWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlindW;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2ADD50828F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.BlindW-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindW Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlindW Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2ADD50928F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.BlindW-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindW Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlindW Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A2ADD50B28F91F9B00835224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.BlindW-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BlindW Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2ADD50C28F91F9B00835224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.BlindW-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BlindW Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2ADD4A928F91F9400835224 /* Build configuration list for PBXProject "BlindW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD4F828F91F9B00835224 /* Debug */,
+				A2ADD4F928F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD4FA28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD4FB28F91F9B00835224 /* Debug */,
+				A2ADD4FC28F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD4FE28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD4FF28F91F9B00835224 /* Debug */,
+				A2ADD50028F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD50128F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD50228F91F9B00835224 /* Debug */,
+				A2ADD50328F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD50428F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD50528F91F9B00835224 /* Debug */,
+				A2ADD50628F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD50728F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD50828F91F9B00835224 /* Debug */,
+				A2ADD50928F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD50A28F91F9B00835224 /* Build configuration list for PBXNativeTarget "BlindW Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD50B28F91F9B00835224 /* Debug */,
+				A2ADD50C28F91F9B00835224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2ADD4A628F91F9400835224 /* Project object */;
+}
