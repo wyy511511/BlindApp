@@ -23,7 +23,6 @@
 		A2335BC729026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BC629026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift */; };
 		A2335BC929026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BC829026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift */; };
 		A2335BE429026EEF0007F9E2 /* left.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE029026EEE0007F9E2 /* left.wav */; };
-		A2335BE529026EEF0007F9E2 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE129026EEF0007F9E2 /* right.wav */; };
 		A2335BE629026EEF0007F9E2 /* end.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE229026EEF0007F9E2 /* end.wav */; };
 		A2335BE729026EEF0007F9E2 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE329026EEF0007F9E2 /* start.wav */; };
 		A2335BE9290270610007F9E2 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE8290270610007F9E2 /* right.wav */; };
@@ -103,7 +102,6 @@
 		A2335BC629026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A2335BC829026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2335BE029026EEE0007F9E2 /* left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = left.wav; sourceTree = "<group>"; };
-		A2335BE129026EEF0007F9E2 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
 		A2335BE229026EEF0007F9E2 /* end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = end.wav; sourceTree = "<group>"; };
 		A2335BE329026EEF0007F9E2 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
 		A2335BE8290270610007F9E2 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
@@ -260,7 +258,6 @@
 			children = (
 				A2335BE229026EEF0007F9E2 /* end.wav */,
 				A2335BE029026EEE0007F9E2 /* left.wav */,
-				A2335BE129026EEF0007F9E2 /* right.wav */,
 				A2335BE329026EEF0007F9E2 /* start.wav */,
 			);
 			path = Sounds;
@@ -445,7 +442,6 @@
 				A2335B8B29026AC20007F9E2 /* Preview Assets.xcassets in Resources */,
 				A2335BE9290270610007F9E2 /* right.wav in Resources */,
 				A2335B8829026AC20007F9E2 /* Assets.xcassets in Resources */,
-				A2335BE529026EEF0007F9E2 /* right.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

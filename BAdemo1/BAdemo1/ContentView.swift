@@ -33,7 +33,7 @@ func playAudio(forResource: String, ofType: String) {
 struct ContentView: View {
     var body: some View {
         Button(action: {
-            playAudio(forResource: "right", ofType: "m4a")
+            playAudio(forResource: "right", ofType: "wav")
         }, label: {
             Text("播放")
         })
