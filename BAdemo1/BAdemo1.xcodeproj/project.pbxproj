@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2335B8429026AC00007F9E2 /* BAdemo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335B8329026AC00007F9E2 /* BAdemo1App.swift */; };
+		A2335B8629026AC00007F9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335B8529026AC00007F9E2 /* ContentView.swift */; };
+		A2335B8829026AC20007F9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2335B8729026AC20007F9E2 /* Assets.xcassets */; };
+		A2335B8B29026AC20007F9E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2335B8A29026AC20007F9E2 /* Preview Assets.xcassets */; };
+		A2335B9529026AC20007F9E2 /* BAdemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335B9429026AC20007F9E2 /* BAdemo1Tests.swift */; };
+		A2335B9F29026AC30007F9E2 /* BAdemo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335B9E29026AC30007F9E2 /* BAdemo1UITests.swift */; };
+		A2335BA129026AC30007F9E2 /* BAdemo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BA029026AC30007F9E2 /* BAdemo1UITestsLaunchTests.swift */; };
+		A2335BA729026AC30007F9E2 /* BAdemo1 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A2335BA629026AC30007F9E2 /* BAdemo1 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2335BAC29026AC30007F9E2 /* BAdemo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BAB29026AC30007F9E2 /* BAdemo1App.swift */; };
+		A2335BAE29026AC30007F9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BAD29026AC30007F9E2 /* ContentView.swift */; };
+		A2335BB029026AC40007F9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2335BAF29026AC40007F9E2 /* Assets.xcassets */; };
+		A2335BB329026AC40007F9E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2335BB229026AC40007F9E2 /* Preview Assets.xcassets */; };
+		A2335BBD29026AC40007F9E2 /* BAdemo1_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BBC29026AC40007F9E2 /* BAdemo1_Watch_AppTests.swift */; };
+		A2335BC729026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BC629026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift */; };
+		A2335BC929026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2335BC829026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift */; };
+		A2335BE429026EEF0007F9E2 /* left.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE029026EEE0007F9E2 /* left.wav */; };
+		A2335BE529026EEF0007F9E2 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE129026EEF0007F9E2 /* right.wav */; };
+		A2335BE629026EEF0007F9E2 /* end.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE229026EEF0007F9E2 /* end.wav */; };
+		A2335BE729026EEF0007F9E2 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE329026EEF0007F9E2 /* start.wav */; };
+		A2335BE9290270610007F9E2 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2335BE8290270610007F9E2 /* right.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2335B9129026AC20007F9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2335B7829026AC00007F9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2335B7F29026AC00007F9E2;
+			remoteInfo = BAdemo1;
+		};
+		A2335B9B29026AC30007F9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2335B7829026AC00007F9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2335B7F29026AC00007F9E2;
+			remoteInfo = BAdemo1;
+		};
+		A2335BA829026AC30007F9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2335B7829026AC00007F9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2335BA529026AC30007F9E2;
+			remoteInfo = "BAdemo1 Watch App";
+		};
+		A2335BB929026AC40007F9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2335B7829026AC00007F9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2335BA529026AC30007F9E2;
+			remoteInfo = "BAdemo1 Watch App";
+		};
+		A2335BC329026AC40007F9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2335B7829026AC00007F9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2335BA529026AC30007F9E2;
+			remoteInfo = "BAdemo1 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2335BCF29026AC40007F9E2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A2335BA729026AC30007F9E2 /* BAdemo1 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2335B8029026AC00007F9E2 /* BAdemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAdemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335B8329026AC00007F9E2 /* BAdemo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1App.swift; sourceTree = "<group>"; };
+		A2335B8529026AC00007F9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2335B8729026AC20007F9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2335B8A29026AC20007F9E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2335B9029026AC20007F9E2 /* BAdemo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAdemo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335B9429026AC20007F9E2 /* BAdemo1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1Tests.swift; sourceTree = "<group>"; };
+		A2335B9A29026AC30007F9E2 /* BAdemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAdemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335B9E29026AC30007F9E2 /* BAdemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1UITests.swift; sourceTree = "<group>"; };
+		A2335BA029026AC30007F9E2 /* BAdemo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2335BA629026AC30007F9E2 /* BAdemo1 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BAdemo1 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335BAB29026AC30007F9E2 /* BAdemo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1App.swift; sourceTree = "<group>"; };
+		A2335BAD29026AC30007F9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2335BAF29026AC40007F9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2335BB229026AC40007F9E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2335BB829026AC40007F9E2 /* BAdemo1 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BAdemo1 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335BBC29026AC40007F9E2 /* BAdemo1_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A2335BC229026AC40007F9E2 /* BAdemo1 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BAdemo1 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2335BC629026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A2335BC829026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAdemo1_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2335BE029026EEE0007F9E2 /* left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = left.wav; sourceTree = "<group>"; };
+		A2335BE129026EEF0007F9E2 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+		A2335BE229026EEF0007F9E2 /* end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = end.wav; sourceTree = "<group>"; };
+		A2335BE329026EEF0007F9E2 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		A2335BE8290270610007F9E2 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2335B7D29026AC00007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B8D29026AC20007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B9729026AC30007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BA329026AC30007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BB529026AC40007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BBF29026AC40007F9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2335B7729026AC00007F9E2 = {
+			isa = PBXGroup;
+			children = (
+				A2335B8229026AC00007F9E2 /* BAdemo1 */,
+				A2335B9329026AC20007F9E2 /* BAdemo1Tests */,
+				A2335B9D29026AC30007F9E2 /* BAdemo1UITests */,
+				A2335BAA29026AC30007F9E2 /* BAdemo1 Watch App */,
+				A2335BBB29026AC40007F9E2 /* BAdemo1 Watch AppTests */,
+				A2335BC529026AC40007F9E2 /* BAdemo1 Watch AppUITests */,
+				A2335B8129026AC00007F9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2335B8129026AC00007F9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2335B8029026AC00007F9E2 /* BAdemo1.app */,
+				A2335B9029026AC20007F9E2 /* BAdemo1Tests.xctest */,
+				A2335B9A29026AC30007F9E2 /* BAdemo1UITests.xctest */,
+				A2335BA629026AC30007F9E2 /* BAdemo1 Watch App.app */,
+				A2335BB829026AC40007F9E2 /* BAdemo1 Watch AppTests.xctest */,
+				A2335BC229026AC40007F9E2 /* BAdemo1 Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2335B8229026AC00007F9E2 /* BAdemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BDF29026ECF0007F9E2 /* Sounds */,
+				A2335B8329026AC00007F9E2 /* BAdemo1App.swift */,
+				A2335B8529026AC00007F9E2 /* ContentView.swift */,
+				A2335BE8290270610007F9E2 /* right.wav */,
+				A2335B8729026AC20007F9E2 /* Assets.xcassets */,
+				A2335B8929026AC20007F9E2 /* Preview Content */,
+			);
+			path = BAdemo1;
+			sourceTree = "<group>";
+		};
+		A2335B8929026AC20007F9E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2335B8A29026AC20007F9E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2335B9329026AC20007F9E2 /* BAdemo1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2335B9429026AC20007F9E2 /* BAdemo1Tests.swift */,
+			);
+			path = BAdemo1Tests;
+			sourceTree = "<group>";
+		};
+		A2335B9D29026AC30007F9E2 /* BAdemo1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2335B9E29026AC30007F9E2 /* BAdemo1UITests.swift */,
+				A2335BA029026AC30007F9E2 /* BAdemo1UITestsLaunchTests.swift */,
+			);
+			path = BAdemo1UITests;
+			sourceTree = "<group>";
+		};
+		A2335BAA29026AC30007F9E2 /* BAdemo1 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BAB29026AC30007F9E2 /* BAdemo1App.swift */,
+				A2335BAD29026AC30007F9E2 /* ContentView.swift */,
+				A2335BAF29026AC40007F9E2 /* Assets.xcassets */,
+				A2335BB129026AC40007F9E2 /* Preview Content */,
+			);
+			path = "BAdemo1 Watch App";
+			sourceTree = "<group>";
+		};
+		A2335BB129026AC40007F9E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BB229026AC40007F9E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2335BBB29026AC40007F9E2 /* BAdemo1 Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BBC29026AC40007F9E2 /* BAdemo1_Watch_AppTests.swift */,
+			);
+			path = "BAdemo1 Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A2335BC529026AC40007F9E2 /* BAdemo1 Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BC629026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift */,
+				A2335BC829026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BAdemo1 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A2335BDF29026ECF0007F9E2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A2335BE229026EEF0007F9E2 /* end.wav */,
+				A2335BE029026EEE0007F9E2 /* left.wav */,
+				A2335BE129026EEF0007F9E2 /* right.wav */,
+				A2335BE329026EEF0007F9E2 /* start.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2335B7F29026AC00007F9E2 /* BAdemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BD029026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1" */;
+			buildPhases = (
+				A2335B7C29026AC00007F9E2 /* Sources */,
+				A2335B7D29026AC00007F9E2 /* Frameworks */,
+				A2335B7E29026AC00007F9E2 /* Resources */,
+				A2335BCF29026AC40007F9E2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2335BA929026AC30007F9E2 /* PBXTargetDependency */,
+			);
+			name = BAdemo1;
+			productName = BAdemo1;
+			productReference = A2335B8029026AC00007F9E2 /* BAdemo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2335B8F29026AC20007F9E2 /* BAdemo1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BD329026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1Tests" */;
+			buildPhases = (
+				A2335B8C29026AC20007F9E2 /* Sources */,
+				A2335B8D29026AC20007F9E2 /* Frameworks */,
+				A2335B8E29026AC20007F9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2335B9229026AC20007F9E2 /* PBXTargetDependency */,
+			);
+			name = BAdemo1Tests;
+			productName = BAdemo1Tests;
+			productReference = A2335B9029026AC20007F9E2 /* BAdemo1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2335B9929026AC30007F9E2 /* BAdemo1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BD629026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1UITests" */;
+			buildPhases = (
+				A2335B9629026AC30007F9E2 /* Sources */,
+				A2335B9729026AC30007F9E2 /* Frameworks */,
+				A2335B9829026AC30007F9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2335B9C29026AC30007F9E2 /* PBXTargetDependency */,
+			);
+			name = BAdemo1UITests;
+			productName = BAdemo1UITests;
+			productReference = A2335B9A29026AC30007F9E2 /* BAdemo1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A2335BA529026AC30007F9E2 /* BAdemo1 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BCC29026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch App" */;
+			buildPhases = (
+				A2335BA229026AC30007F9E2 /* Sources */,
+				A2335BA329026AC30007F9E2 /* Frameworks */,
+				A2335BA429026AC30007F9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BAdemo1 Watch App";
+			productName = "BAdemo1 Watch App";
+			productReference = A2335BA629026AC30007F9E2 /* BAdemo1 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2335BB729026AC40007F9E2 /* BAdemo1 Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BD929026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch AppTests" */;
+			buildPhases = (
+				A2335BB429026AC40007F9E2 /* Sources */,
+				A2335BB529026AC40007F9E2 /* Frameworks */,
+				A2335BB629026AC40007F9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2335BBA29026AC40007F9E2 /* PBXTargetDependency */,
+			);
+			name = "BAdemo1 Watch AppTests";
+			productName = "BAdemo1 Watch AppTests";
+			productReference = A2335BB829026AC40007F9E2 /* BAdemo1 Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2335BC129026AC40007F9E2 /* BAdemo1 Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2335BDC29026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch AppUITests" */;
+			buildPhases = (
+				A2335BBE29026AC40007F9E2 /* Sources */,
+				A2335BBF29026AC40007F9E2 /* Frameworks */,
+				A2335BC029026AC40007F9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2335BC429026AC40007F9E2 /* PBXTargetDependency */,
+			);
+			name = "BAdemo1 Watch AppUITests";
+			productName = "BAdemo1 Watch AppUITests";
+			productReference = A2335BC229026AC40007F9E2 /* BAdemo1 Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2335B7829026AC00007F9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A2335B7F29026AC00007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A2335B8F29026AC20007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2335B7F29026AC00007F9E2;
+					};
+					A2335B9929026AC30007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2335B7F29026AC00007F9E2;
+					};
+					A2335BA529026AC30007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A2335BB729026AC40007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2335BA529026AC30007F9E2;
+					};
+					A2335BC129026AC40007F9E2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A2335BA529026AC30007F9E2;
+					};
+				};
+			};
+			buildConfigurationList = A2335B7B29026AC00007F9E2 /* Build configuration list for PBXProject "BAdemo1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2335B7729026AC00007F9E2;
+			productRefGroup = A2335B8129026AC00007F9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2335B7F29026AC00007F9E2 /* BAdemo1 */,
+				A2335B8F29026AC20007F9E2 /* BAdemo1Tests */,
+				A2335B9929026AC30007F9E2 /* BAdemo1UITests */,
+				A2335BA529026AC30007F9E2 /* BAdemo1 Watch App */,
+				A2335BB729026AC40007F9E2 /* BAdemo1 Watch AppTests */,
+				A2335BC129026AC40007F9E2 /* BAdemo1 Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2335B7E29026AC00007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BE629026EEF0007F9E2 /* end.wav in Resources */,
+				A2335BE729026EEF0007F9E2 /* start.wav in Resources */,
+				A2335BE429026EEF0007F9E2 /* left.wav in Resources */,
+				A2335B8B29026AC20007F9E2 /* Preview Assets.xcassets in Resources */,
+				A2335BE9290270610007F9E2 /* right.wav in Resources */,
+				A2335B8829026AC20007F9E2 /* Assets.xcassets in Resources */,
+				A2335BE529026EEF0007F9E2 /* right.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B8E29026AC20007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B9829026AC30007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BA429026AC30007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BB329026AC40007F9E2 /* Preview Assets.xcassets in Resources */,
+				A2335BB029026AC40007F9E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BB629026AC40007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BC029026AC40007F9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2335B7C29026AC00007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335B8629026AC00007F9E2 /* ContentView.swift in Sources */,
+				A2335B8429026AC00007F9E2 /* BAdemo1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B8C29026AC20007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335B9529026AC20007F9E2 /* BAdemo1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335B9629026AC30007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BA129026AC30007F9E2 /* BAdemo1UITestsLaunchTests.swift in Sources */,
+				A2335B9F29026AC30007F9E2 /* BAdemo1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BA229026AC30007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BAE29026AC30007F9E2 /* ContentView.swift in Sources */,
+				A2335BAC29026AC30007F9E2 /* BAdemo1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BB429026AC40007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BBD29026AC40007F9E2 /* BAdemo1_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2335BBE29026AC40007F9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2335BC929026AC40007F9E2 /* BAdemo1_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A2335BC729026AC40007F9E2 /* BAdemo1_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2335B9229026AC20007F9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2335B7F29026AC00007F9E2 /* BAdemo1 */;
+			targetProxy = A2335B9129026AC20007F9E2 /* PBXContainerItemProxy */;
+		};
+		A2335B9C29026AC30007F9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2335B7F29026AC00007F9E2 /* BAdemo1 */;
+			targetProxy = A2335B9B29026AC30007F9E2 /* PBXContainerItemProxy */;
+		};
+		A2335BA929026AC30007F9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2335BA529026AC30007F9E2 /* BAdemo1 Watch App */;
+			targetProxy = A2335BA829026AC30007F9E2 /* PBXContainerItemProxy */;
+		};
+		A2335BBA29026AC40007F9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2335BA529026AC30007F9E2 /* BAdemo1 Watch App */;
+			targetProxy = A2335BB929026AC40007F9E2 /* PBXContainerItemProxy */;
+		};
+		A2335BC429026AC40007F9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2335BA529026AC30007F9E2 /* BAdemo1 Watch App */;
+			targetProxy = A2335BC329026AC40007F9E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2335BCA29026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2335BCB29026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2335BCD29026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAdemo1 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BAdemo1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cuBoulder.BAdemo1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2335BCE29026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAdemo1 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BAdemo1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cuBoulder.BAdemo1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A2335BD129026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAdemo1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BAdemo1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2335BD229026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAdemo1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BAdemo1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2335BD429026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAdemo1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BAdemo1";
+			};
+			name = Debug;
+		};
+		A2335BD529026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAdemo1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BAdemo1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2335BD729026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BAdemo1;
+			};
+			name = Debug;
+		};
+		A2335BD829026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cuBoulder.BAdemo1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BAdemo1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2335BDA29026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cuBoulder.BAdemo1-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAdemo1 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BAdemo1 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2335BDB29026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cuBoulder.BAdemo1-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAdemo1 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BAdemo1 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A2335BDD29026AC40007F9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cuBoulder.BAdemo1-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BAdemo1 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2335BDE29026AC40007F9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V7BB2CZZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cuBoulder.BAdemo1-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BAdemo1 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2335B7B29026AC00007F9E2 /* Build configuration list for PBXProject "BAdemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BCA29026AC40007F9E2 /* Debug */,
+				A2335BCB29026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BCC29026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BCD29026AC40007F9E2 /* Debug */,
+				A2335BCE29026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BD029026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BD129026AC40007F9E2 /* Debug */,
+				A2335BD229026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BD329026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BD429026AC40007F9E2 /* Debug */,
+				A2335BD529026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BD629026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BD729026AC40007F9E2 /* Debug */,
+				A2335BD829026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BD929026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BDA29026AC40007F9E2 /* Debug */,
+				A2335BDB29026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2335BDC29026AC40007F9E2 /* Build configuration list for PBXNativeTarget "BAdemo1 Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2335BDD29026AC40007F9E2 /* Debug */,
+				A2335BDE29026AC40007F9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2335B7829026AC00007F9E2 /* Project object */;
+}
