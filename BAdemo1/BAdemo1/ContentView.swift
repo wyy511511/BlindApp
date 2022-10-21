@@ -36,27 +36,59 @@ struct ContentView: View {
         VStack{
             Button(action: {
                 playAudio(forResource: "start", ofType: "wav")
-            }, label: {
-                Text("start")
-            })
+            }
+//                   , label: {
+//                Text("start")
+//            }
+            ){
+                Image(systemName: "play.circle.fill").resizable()
+                    .foregroundColor(Color.green)
+                    .frame(width: 50, height: 50)
+                    .aspectRatio(contentMode: .fit)
+            }
+            
             HStack{
-                Button(action: {
-                    playAudio(forResource: "right", ofType: "wav")
-                }, label: {
-                    Text("right播放")
-                })
-                Spacer()
+                
                 Button(action: {
                     playAudio(forResource: "left", ofType: "wav")
-                }, label: {
-                    Text("left播放")
                 })
+                {
+                    Image(systemName: "arrow.left.circle.fill").resizable()
+                        .foregroundColor(Color.yellow)
+                        .frame(width: 50, height: 50)
+                        .aspectRatio(contentMode: .fit)
+                }
+                
+                Text("   ").padding(50)
+
+                
+//                Spacer()
+                
+                Button(action: {
+                    playAudio(forResource: "right", ofType: "wav")
+                })
+                {
+                    Image(systemName: "arrow.right.circle.fill").resizable()
+                        .foregroundColor(Color.blue)
+                        .frame(width: 50, height: 50)
+                        .aspectRatio(contentMode: .fit)
+                }
+                
+                
+                
+
+                
             }
+            
             Button(action: {
                 playAudio(forResource: "end", ofType: "wav")
-            }, label: {
-                Text("end")
             })
+            {
+                Image(systemName: "stop.circle.fill").resizable()
+                    .foregroundColor(Color.red)
+                    .frame(width: 50, height: 50)
+                    .aspectRatio(contentMode: .fit)
+            }
             
 
             
