@@ -32,11 +32,35 @@ func playAudio(forResource: String, ofType: String) {
 
 struct ContentView: View {
     var body: some View {
-        Button(action: {
-            playAudio(forResource: "right", ofType: "wav")
-        }, label: {
-            Text("播放")
-        })
+
+        VStack{
+            Button(action: {
+                playAudio(forResource: "start", ofType: "wav")
+            }, label: {
+                Text("start")
+            })
+            HStack{
+                Button(action: {
+                    playAudio(forResource: "right", ofType: "wav")
+                }, label: {
+                    Text("right播放")
+                })
+                Spacer()
+                Button(action: {
+                    playAudio(forResource: "left", ofType: "wav")
+                }, label: {
+                    Text("left播放")
+                })
+            }
+            Button(action: {
+                playAudio(forResource: "end", ofType: "wav")
+            }, label: {
+                Text("end")
+            })
+            
+
+            
+        }
     }
     
     

@@ -185,7 +185,6 @@
 				A2335BDF29026ECF0007F9E2 /* Sounds */,
 				A2335B8329026AC00007F9E2 /* BAdemo1App.swift */,
 				A2335B8529026AC00007F9E2 /* ContentView.swift */,
-				A2335BE8290270610007F9E2 /* right.wav */,
 				A2335B8729026AC20007F9E2 /* Assets.xcassets */,
 				A2335B8929026AC20007F9E2 /* Preview Content */,
 			);
@@ -257,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				A2335BE229026EEF0007F9E2 /* end.wav */,
+				A2335BE8290270610007F9E2 /* right.wav */,
 				A2335BE029026EEE0007F9E2 /* left.wav */,
 				A2335BE329026EEF0007F9E2 /* start.wav */,
 			);
