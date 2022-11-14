@@ -1,0 +1,20 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "desk.arreferenceimage"
+    },
+    {
+      "filename" : "eevee.arreferenceimage"
+    },
+    {
+      "filename" : "ground.arreferenceimage"
+    },
+    {
+      "filename" : "window.arreferenceimage"
+    }
+  ]
+}
