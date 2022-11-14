@@ -9,6 +9,27 @@
 import UIKit
 import SceneKit
 import ARKit
+import AVFoundation
+var soundPlayer: AVAudioPlayer?
+
+func playAudio(forResource: String, ofType: String) {
+    
+    //定义路径
+    let path = Bundle.main.path(forResource: forResource, ofType: ofType)!
+    //定义url
+    let url = URL(fileURLWithPath: path)
+    
+    do {
+        //尝试使用预设的声音播放器获取目标文件
+        soundPlayer = try AVAudioPlayer(contentsOf: url)
+        //播放声音————停止的话使用stop()方法
+        soundPlayer?.play()
+    } catch {
+        //加载文件失败，这里用于防止应用程序崩溃
+        print("音频文件出现问题")
+    }
+}
+
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
@@ -31,8 +52,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
         //类似于平面检测，这里设置为图片检测；并指定哪些图片需要被检测
+        configuration.planeDetection = .horizontal//设定为水平方向的自动平面检测
         configuration.detectionImages = ARReferenceImage.referenceImages(inGroupNamed: "Poke Cards", bundle: nil)
         configuration.maximumNumberOfTrackedImages = 4 //设定最大追踪图片数（文档规定）
+        
         
         // Run the view's session
         sceneView.session.run(configuration)
@@ -48,6 +71,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // MARK: - ARSCNViewDelegate
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        
+        if let planeAnchor = anchor as? ARPlaneAnchor{
+            //设定几何体（一个平面控件），并加上贴纸
+            let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
+            guard let material = plane.firstMaterial else{return}
+            material.diffuse.contents = UIColor.yellow
+            
+            //根据这个几何体创建节点并设定位置
+            let planeNode = SCNNode(geometry: plane)
+            planeNode.simdPosition = planeAnchor.center//三维位置向量（包括位置和方向的量）
+            planeNode.eulerAngles.x = -.pi / 2
+            print("plane")
+            playAudio(forResource: "start", ofType: "wav")
+            //加到空节点中以便显示出来
+            node.addChildNode(planeNode)
+        }
+        
         //过滤出那些是图片检测的锚点
         guard let imageAnchor = anchor as? ARImageAnchor else{return}
         
@@ -59,6 +99,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             //若有多个桌游卡片需要识别时
             if imageAnchor.referenceImage.name == "eevee" {
+                playAudio(forResource: "start", ofType: "wav")
+                print("test")
                 let planeNode = SCNNode(geometry: SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height))
                 planeNode.opacity = 0.25
                 planeNode.eulerAngles.x = -.pi / 2
