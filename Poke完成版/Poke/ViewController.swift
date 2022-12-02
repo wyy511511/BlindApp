@@ -111,6 +111,45 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 node.addChildNode(planeNode)
                 node.addChildNode(eeveeNode)
             }
+            if imageAnchor.referenceImage.name == "dlc1" {
+                playAudio(forResource: "start", ofType: "wav")
+                print("test")
+                let planeNode = SCNNode(geometry: SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height))
+                planeNode.opacity = 0.25
+                planeNode.eulerAngles.x = -.pi / 2
+                //创建伊布（口袋妖怪）的3D模型节点
+                guard let eeveeNode = SCNScene(named: "art.scnassets/eevee.scn")?.rootNode.childNode(withName: "eevee", recursively: true) else{return}
+                
+                
+                node.addChildNode(planeNode)
+                node.addChildNode(eeveeNode)
+            }
+            if imageAnchor.referenceImage.name == "dlc2" {
+                playAudio(forResource: "start", ofType: "wav")
+                print("test")
+                let planeNode = SCNNode(geometry: SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height))
+                planeNode.opacity = 0.25
+                planeNode.eulerAngles.x = -.pi / 2
+                //创建伊布（口袋妖怪）的3D模型节点
+                guard let eeveeNode = SCNScene(named: "art.scnassets/eevee.scn")?.rootNode.childNode(withName: "eevee", recursively: true) else{return}
+                
+                
+                node.addChildNode(planeNode)
+                node.addChildNode(eeveeNode)
+            }
+            if imageAnchor.referenceImage.name == "dlc3" {
+                playAudio(forResource: "start", ofType: "wav")
+                print("test")
+                let planeNode = SCNNode(geometry: SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height))
+                planeNode.opacity = 0.25
+                planeNode.eulerAngles.x = -.pi / 2
+                //创建伊布（口袋妖怪）的3D模型节点
+                guard let eeveeNode = SCNScene(named: "art.scnassets/eevee.scn")?.rootNode.childNode(withName: "eevee", recursively: true) else{return}
+                
+                
+                node.addChildNode(planeNode)
+                node.addChildNode(eeveeNode)
+            }
             if imageAnchor.referenceImage.name == "ground" {
                 let planeNode = SCNNode(geometry: SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height))
                 planeNode.opacity = 0.25
